@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>grading system </h2>
+    <script>
+   /* let marks = 90;
+    switch (marks) {
+        case (marks >= 90):
+            console.log( " you achive the A+ grade ");
+            break;
+         case (marks >= 80):
+            console.log(" you achive the A grade ");
+            break;
+        case (marks >= 65):
+            console.log(" you achive the B+ grade ");
+            break;
+            case (marks >=55):
+            console.log(" you achive the B grade ");
+            break;
+        case (marks >= 40):
+            console.log(" you achive the C grade ");
+            break;
+        default:
+            console.log(" you achive the D grade ");
+            break;
+    }*/
+
+
+    let marks = 70;
+    console.log(marks >=30 ? 'you are pass in this exam':'you are fail in the exam');
+
+    let result = ( marks >= 90 ) ? 'you achive the A+ grade':
+                 (marks => 80) ? 'you achive the A grade':
+                 (marks => 65) ? 'you achive the B+ grade':
+                 (marks => 55) ? 'you achive the B grade':
+                 (marks => 40) ? 'you achive the C grade':
+                'you achive the D grade';
+    
+        console.log(result);
+    </script>  
+</body>
+</html>

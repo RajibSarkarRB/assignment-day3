@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Assignment Day 3 Question 2</title>
+    <script >
+     {
+     var OSName = "Unknown OS"; if (navigator.userAgent.indexOf("Win") != -1) OSName = "Windows"; if (navigator.userAgent.indexOf("Mac") != -1) OSName = "Macintosh"; if (navigator.userAgent.indexOf("Linux") != -1) OSName = "Linux"; if (navigator.userAgent.indexOf("Android") != -1) OSName = "Android"; if (navigator.userAgent.indexOf("like Mac") != -1) OSName = "iOS"; console.log('You are on: ' + OSName);
+     }   
+    </script>
+</head>
+<body>
+       <div style="margin-top: 10px;" id="os"></div>
+       <p id="demo"></p>
+
+						<script>
+						document.getElementById("os").innerHTML = OSName;
+</script>
+   </form>
+</body>
+</html>
